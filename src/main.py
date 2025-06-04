@@ -1,4 +1,4 @@
-from datasource.endpoint.gupy import buscar_vagas
+from datasources.gupy import finding_jobs
 
 
 def main():
@@ -7,7 +7,7 @@ def main():
     ]
 
     for vaga in vagas:
-        buscar_vagas(vaga)
+        finding_jobs(vaga)
 
 if __name__ == "__main__":
     main()
