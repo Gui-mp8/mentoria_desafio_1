@@ -23,3 +23,4 @@ def buscar_vagas(vaga: str):
     with open("./data/gupy.json", "w", encoding="utf-8") as f:
         json.dump(todas_as_vagas, f, indent=4, ensure_ascii=False)
 
+
